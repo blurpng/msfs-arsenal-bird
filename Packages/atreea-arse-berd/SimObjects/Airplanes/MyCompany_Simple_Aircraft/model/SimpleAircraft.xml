@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ModelInfo>
+
+	<LODS>
+		<!-- Highest LOD -->
+		<!-- minimum display size in % (should be bounding sphere vertical screen size, sphere will often be slightly larger than you expect) -->
+		<!-- default minSize is 0 -->
+		<LOD minSize="50" ModelFile="SimpleAircraft_LOD00.gltf"/>
+	</LODS>
+</ModelInfo>
+<ModelBehaviors>
+	<Include Path="Asobo\Common.xml"/>
+	<Include Path="Asobo\Exterior.xml"/>
+	<Component ID="HANDLING">
+		<UseTemplate Name="ASOBO_HANDLING_Elevator_Template">
+			<ANIM_NAME>elevator_percent_key</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_HANDLING_Aileron_Template">
+			<ANIM_NAME_LEFT>l_aileron_percent_key</ANIM_NAME_LEFT>
+			<ANIM_NAME_RIGHT>r_aileron_percent_key</ANIM_NAME_RIGHT>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_HANDLING_Rudder_Template">
+			<ANIM_NAME>rudder_percent_key</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_HANDLING_Flaps_Template">
+			<ANIM_NAME_LEFT>l_flap_percent_key</ANIM_NAME_LEFT>
+			<ANIM_NAME_RIGHT>r_flap_percent_key</ANIM_NAME_RIGHT>
+		</UseTemplate>
+	</Component>
+	<Component ID="ENGINE">
+		<UseTemplate Name="ASOBO_ENGINE_Propeller_Template">
+			<ID>1</ID>
+			<ANIM_NODE_ID>Prop1</ANIM_NODE_ID>
+			<ANIM_NAME>prop_anim</ANIM_NAME>
+		</UseTemplate>
+	</Component>
+</ModelBehaviors>
