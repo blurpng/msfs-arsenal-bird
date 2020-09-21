@@ -29,7 +29,9 @@ Make a flyable Arsenal Bird with a working Virtual Cockpit
 
 -Hangar view "broken"
 
--Engine will not start if loaded from main menu and on ground, reload the plane when in game using the plane selector after slewing up off the ground
+-Engine will not start if loaded from main menu and on ground, reload the plane when in game using the plane selector after slewing up off the ground or slew up and move forward|
+
+-Exterior camera might break after slewing, use the "smartcam" toggle to fix its position
 
 -Plane will not move on ground (No gears)
 
