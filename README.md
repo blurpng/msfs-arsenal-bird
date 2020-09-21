@@ -27,13 +27,13 @@ Make a flyable Arsenal Bird with a working Virtual Cockpit
 
 -May fly away in hangar view
 
--Hangar view broken
+-Hangar view "broken"
 
 -Engine will not start if loaded from main menu and on ground, reload the plane when in game using the plane selector after slewing up off the ground
 
 -Plane will not move on ground (No gears)
 
--Propellers looks like it spins the wrong way
+-Propellers looks like it spins the wrong way but isnt 
 
 -Taxiing cutscene is broken
 
