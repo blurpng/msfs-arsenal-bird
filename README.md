@@ -33,7 +33,7 @@ Make a flyable Arsenal Bird with a working Virtual Cockpit
 
 -Plane will not move on ground (No gears)
 
--Propellers spins the wrong way
+-Propellers looks like it spins the wrong way
 
 -Taxiing cutscene is broken
 
